@@ -1,0 +1,12 @@
+.select {
+    border: 1px solid royalblue;
+    margin-bottom: 20px;
+    color: #4d90f0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.1);
+}
+
+
+.select:focus {
+    outline: none;
+    box-shadow: 0 0 1px 1px #4d90f0;
+}

@@ -1,0 +1,22 @@
+.pre-page {
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 50%;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    transform: translateX(-50%);
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.pre-page__link {
+    padding: 5px;
+    border: 1px solid royalblue;
+    background: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: royalblue;
+    margin-top: 15px;
+}
+

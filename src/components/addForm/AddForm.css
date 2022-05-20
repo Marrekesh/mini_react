@@ -1,0 +1,9 @@
+
+.add-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+

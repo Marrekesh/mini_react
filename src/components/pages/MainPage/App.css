@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    border: 1px solid royalblue;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    width: 800px;
+    transform: translateX(-50%);
+    padding: 30px;
+    border-radius: 5px ;
+}
+
+.post-enter {
+    opacity: 0;
+}
+.post-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+.post-exit {
+    opacity: 1;
+}
+.post-exit-active {
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+}
+
+.page {
+    padding: 5px;
+    margin-right: 3px;
+    border: 1px solid royalblue;
+    cursor: pointer;
+}
+.page__current {
+    border: 2px solid orange;
+}
